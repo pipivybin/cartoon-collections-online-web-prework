@@ -5,6 +5,7 @@ end
 def summon_captain_planet(a)
   new = []
   a.each {|name| new << name.capitalize}
+  new
   new.join('!')
 end
 

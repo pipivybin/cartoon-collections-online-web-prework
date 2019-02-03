@@ -3,7 +3,7 @@ def roll_call_dwarves(list)
 end
 
 def summon_captain_planet(a)
-  a = a.collect {|name| a << name.capitalize}
+  a = a.collect {|name| name.capitalize}
   a.collect {|x| x + "!"}
   a
 end

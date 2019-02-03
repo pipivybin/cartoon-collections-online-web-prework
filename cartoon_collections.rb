@@ -3,7 +3,9 @@ def roll_call_dwarves(list)
 end
 
 def summon_captain_planet(a)
-  a.to_a
+  new = []
+  a.each {|name| new << name.capitalize}
+  new.join('!')
 end
 
 def long_planeteer_calls(a)

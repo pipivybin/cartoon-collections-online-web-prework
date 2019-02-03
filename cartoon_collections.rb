@@ -5,6 +5,7 @@ end
 def summon_captain_planet(a)
   a = a.collect {|name| new << name.capitalize}
   a.collect {|x| x + "!"}
+  a
 end
 
 def long_planeteer_calls(a)
